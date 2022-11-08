@@ -35,6 +35,12 @@ namespace exercice_3
                 this.centre = centre;
                 this.rayon = rayon;
             }
+            public double Area (double r)
+            {
+                double air = Math.PI * r * r;
+
+                return air ;
+            }
         }
     }
 }
