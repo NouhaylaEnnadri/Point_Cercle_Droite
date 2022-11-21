@@ -10,7 +10,7 @@ namespace exercice_3
     {
         //declaration des variables x,y dans le plan 
         public int x { get; set; }
-        private int y { get; set; }
+        public int y { get; set; }
 
 
         //initialisation des attributs 
