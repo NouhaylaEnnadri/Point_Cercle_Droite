@@ -10,25 +10,10 @@ namespace exercice_3
     {
         class Cercle
         {
-            private point centre;
-            private int rayon;
+            public point centre { get; set; }   
+            public int rayon { get; set; }  
 
-            public int GetRayon()
-            {
-                return rayon;
-            }
-            public point GetCentre()
-            {
-                return centre;
-            }
-            public void SetRayon(int rayon)
-            {
-                this.rayon = rayon;
-            }
-            public void SetCenter(point centre)
-            {
-                this.centre = centre;
-            }
+         
             public Cercle(point centre, int rayon = 0)
             {
                 centre = new point(0, 0);
@@ -41,6 +26,6 @@ namespace exercice_3
 
                 return air ;
             }
+           
         }
-    }
 }

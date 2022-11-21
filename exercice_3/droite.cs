@@ -15,7 +15,7 @@ namespace exercice_3
         private point p { get; set; }   
         private point q { get; set; }    
 
-        public droite(point p, point q)
+        public droite(point p, point q) 
         {
             this.p = p;
             this.q = q;
